@@ -1,0 +1,158 @@
+@media screen and (max-width:768px){
+
+    .navcon{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu{
+        display: flex;
+    }
+    .mydiv{
+        display: none;
+    }
+    .navcon a.icon {
+        float: right;
+        display: block;
+    }
+    .article{
+        width: 80%;
+        margin: 0;
+    }
+    .btn{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box{
+        width:50%;
+    }
+    .icon{
+        display: relative;
+        float: right;
+        color: white;
+    }
+    .p2{
+        padding:5px;
+    }
+    .project1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image img{
+        width: 100vw;
+        padding:0.7em 4em;
+    }
+    .details{
+        padding: 1em;
+        width: 90vw;
+    }
+    .box-members{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plan{
+        width:100%;
+    }
+    .container-contactus{
+        flex-direction: column;
+    }
+    .c1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .c1 #name{
+        width: 100%;
+    }
+    .c1 #mail{
+        width: 100%;
+    }
+    .c1 #subject{
+        width: 100%;
+    }
+    .c2{
+        padding-top: 10px;
+        width:100%;
+
+    }
+}
+
+@media screen and (max-width:425px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mydiv{
+        display: none;
+    }
+    .p2{
+        padding:1.5em;
+        padding-bottom: 3em;
+    }
+    .article{
+        width: 80%;
+        margin: 0px;
+    }
+    .btn{
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+    }
+    #view {
+        padding-bottom: 5px;
+    }
+    h4{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .box{
+        width:100%;
+    }
+    .box1{
+        width: 100%;
+    }
+    .project1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img{
+        width: 100vw;
+        margin: auto;
+    }
+    .details{
+        padding: 1em;
+        width: 90vw;
+    }
+    .plan{
+        width:100%;
+    }
+    .box-members{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plan{
+        width:100%;
+    }
+    .container-contactus{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navcon.responsive {
+        position: relative;
+    }
+
+    .navcon.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navcon.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
